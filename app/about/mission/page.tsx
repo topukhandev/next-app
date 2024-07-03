@@ -3,7 +3,7 @@ import Button from "@/app/components/Button";
 export default function missionPage() {
     return (
         <main className="mt-5">
-            <h1 className="text-3xl">This is Mission Page (server component) 😎</h1>
+            <h1 className="text-3xl">Mission Page (server component) 😎</h1>
             <h3 className="text-xl text-orange-400 mt-6">
                 Join Us in Making a Difference:
             </h3>
