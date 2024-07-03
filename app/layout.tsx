@@ -17,17 +17,23 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>
-                <nav className="mb-5">
-                    <ul>
-                        <li>
+            <body className={`${inter.className} p-3`}>
+                <nav className="my-5">
+                    <ul className="sm:flex gap-3 p-3 bg-gray-800 text-white rounded-lg shadow-lg">
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
                             <Link href="/">Home</Link>
                         </li>
-                        <li>
-                            <Link href="/about">about</Link>
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
+                            <Link href="/about">About</Link>
                         </li>
-                        <li>
-                            <Link href="/contact">contact</Link>
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
+                            <Link href="/contact">Contact</Link>
+                        </li>
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
+                            <Link href="/address">Address</Link>
+                        </li>
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
+                            <Link href="/blogs">Blogs</Link>
                         </li>
                     </ul>
                 </nav>
