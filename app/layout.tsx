@@ -35,6 +35,9 @@ export default function RootLayout({
                         <li className="hover:text-yellow-500 transition-colors duration-300">
                             <Link href="/blogs">Blogs</Link>
                         </li>
+                        <li className="hover:text-yellow-500 transition-colors duration-300">
+                            <Link href="/posts">Posts</Link>
+                        </li>
                     </ul>
                 </nav>
                 {children}

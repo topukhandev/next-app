@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+    title: "About us page",
+    description: "Metadata changed",
+};
+
 export default function aboutLayout({ children }) {
     return (
         <nav className="my-5">
